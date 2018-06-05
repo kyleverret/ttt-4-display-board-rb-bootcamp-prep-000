@@ -2,4 +2,13 @@
 # out the current state.
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board
-  spaces = " #{board[0} | 
+  spaces1 = " #{board[0]} | #{board[1]} | #{board[2]} "
+  spaces2 = " #{board[3]} | #{board[4]} | #{board[5]} "
+  spaces3 = " #{board[6]} | #{board[7]} | #{board[8]} "
+  lines = "-----------"
+  puts spaces1
+  puts lines
+  puts spaces2
+  puts lines
+  puts spaces3
+end
